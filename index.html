@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+</head>
+<body background="https://cdn.wallpapersafari.com/77/35/sNLAuC.jpg">
+ <div class="login">
+     <p style="color :white;">
+	<h1>Buy Predictor : From Social Network Ad </h1>
+     </p>
+
+     <!-- Main Input For Receiving Query to our ML -->
+  <form action="{{ url_for('predict')}}"method="post">
+     <div>
+    	<input type="text" name="salary" placeholder="ENTER YOUR AGE" required="required" />
+     </div>
+      <br>
+      <br>
+      <br>
+     <div>
+		<input type="text" name="age" placeholder="ENTER  YOUR SALARY" required="required" />
+     </div>
+      <br>
+      <br>
+      <br>
+
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+     <div>
+         <br>
+      <br>
+   <p style="color :white;">
+   {{ prediction_text }}
+     </div>
+     </p>
+
+ </div>
+</body>
+</html>
