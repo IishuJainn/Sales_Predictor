@@ -21,18 +21,23 @@ pickle
 
 ## Installing
 Clone this repository onto your local machine:
-![image](https://user-images.githubusercontent.com/102272183/218Running the API
-To run the API, execute the following command in the terminal:295032-7c8c9e13-18af-4cfd-ba4b-b188b467b125.png)
+
+![image](https://user-images.githubusercontent.com/102272183/218295272-65d08788-21c6-45bb-b04e-ba51c7e36660.png)
 
 Create a virtual environment and activate it:
-![image](https://user-images.githubusercontent.com/102272183/218295051-ac7c22ec-3362-4550-acdd-556a60b03281.png)
+
+![image](https://user-images.githubusercontent.com/102272183/218295294-d035c862-3e50-4799-bdca-f9b91ce78f24.png)
 
 Install the required libraries:
-![image](https://user-images.githubusercontent.com/102272183/218295065-7c4a2f62-f8b1-4e2b-ba77-1c4832981da9.png)
+
+![image](https://user-images.githubusercontent.com/102272183/218295313-f057fa9a-e400-483e-be84-9d60e604c3c0.png)
 
 ## Running the API
 To run the API, execute the following command in the terminal:
-![image](https://user-images.githubusercontent.com/102272183/218295094-1156d9e7-4a6b-4ee1-b00d-61b059ae082e.png)
+
+![image](https://user-images.githubusercontent.com/102272183/218295335-3e168629-63cd-4618-a093-f3465089f558.png)
+
+The API will be available at http://localhost:5000. The homepage contains a form where you can input the features for a user and make a prediction on whether they will buy a product from a social network ad.
 
 The API will be available at http://localhost:5000. The homepage contains a form where you can input the features for a user and make a prediction on whether they will buy a product from a social network ad.
 
